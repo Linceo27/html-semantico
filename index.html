@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Flag_map_of_Pernambuco.ico" type="image/x-icon">
+    <title>Exercício 7: HTML Semântico</title>
+</head>
+
+<body>
+    
+<main>
+        
+    <div class="container-bandeira">
+    <img id="bandeira" src="image-removebg-preview (27).png" alt="">
+    <div class="cabeçalho">
+        <header id="nome-site">
+            <h1>
+                Tipicamente Pernambucana
+            </h1>
+            <h3>(Esse site foi criado para fins educacionais por Nicole Gomes)</h3>
+        </header>
+    </div>
+    </div>
+    <header class="titulo">
+        <h1>
+            HTML e Semântica?! O que é isso?! Programação ou Português?
+        </h1>
+        <h2>
+            Olá querido leitor, hoje aprenderemos o que é esse tal de HTML Semântico e quais são suas principais Tag's. Chega aí😁🖖!
+        </h2>
+    </header>
+    <p>
+        Resumidamente: O <abbr title="HyperText Markup Language">HTML</abbr>
+        Semântico diz respeito a uma forma de estruturar o conteúdo, e, portanto, suas informações, de uma maneira mais
+        significativa. "Como assim significativa?" Bom, o HTML semântico foi pensado para ajudar tanto o programador quanto o computador a entender
+        melhor do que se trata aquele conteúdo desenvolvido. O que ajuda ainda mais a classificar e filtrar as páginas de uma forma mais eficiente nos browsers.
+    </p>
+    <p>
+        Tudo isso porque as Tags semânticas são utilizadas com um propósito lógico, e não de estilização (mesmo com algumas Tags mudando a forma do conteúdo), que será  deixado para as <abbr title="Cascading Style Sheets">CSS</abbr>
+        de uma forma que deixe todo o conteúdo de Front-End, mais "Limpo" e lógico para os dois grupos supracitados anteriormente.
+    </p>
+    <p>
+        Dar semântica a algo é o mesmo que dar siginificado, dar sentido. Antes do <abbr title="HyperText Markup Language 5">HTML5</abbr> existiam tags que não haviam um significado por trás,
+        como é o caso das Tags: < b > que atualmente poder ser subistituída pela tag semântica    < strong > que significa forte e tem como função evidênciar um trecho importante, a Tag < i >,
+        quem tem o papel de deixar o trecho selecinado em itálico, que atualmente pode ser substituída por < em >, que significa ênfase.
+    </p>
+    <h2>
+        Veja a seguir alguns exemplos de Tags Semânticas
+    </h2>
+    <div class="container-tags">
+        <div id="strong">
+            <h3>
+                strong
+            </h3>
+    
+                <p>
+                A Tag <Strong> </Strong>serve para pôr em evidência uma parte do texto, ele deixa o texto em negrito, para demonstrar que aquele trecho é importante
+                Como por exemplo, o trecho a seguir: <br> <br>
+                <img id="strong-imagem" src="ex tag strong.png" alt=""> <br>
+            </p>
+    
+        </div>
+        <div id="em">
+            <h3>em</h3>
+    
+                <p>A Tag < Em >, que significa <q>Ênfase</q> e serve para dar uma maior ênfase ao trecho envolto entre as Tags.
+                Assim como a Tag strong, que corroboram para evidenciar partes do conteúdo. Como por exemplo: <br> <br>
+    
+                <img id="em-imagem" src="ex. tag em.png" alt=""> <br>
+                </p>
+    
+        </div>
+        <div id="cite-e-q">
+            <h3>
+                cite e q
+            </h3>
+    
+                <p>
+                    As Tags < cite > e < q > são amigas, ocasionalmente elas andam juntas. Ambas complementam o significado do trecho envolvido. Utiliza-se a
+                    Tag < cite > para envolver o autor, a fonte do utilizado trecho, um trecho que não foi escrito por quem está desenvolvendo o conteúdo, e sim
+                    retirado de uma obra de uma pessoa diferente. A Tag < q > entra no jogo para evidenciar ainda mais que o trecho está sendo citado, através das "aspas".
+                    Como o seguinte trecho: <br> <br>
+                    <img id="cite-e-q-imagem" src="cite e q ex.png" alt=""> <br>
+    
+                </p>
+    
+        </div>
+        <div id="a">
+            <h3>
+                a
+            </h3>
+            <p>
+                A Tag < a > tem uma utilidade muito marcante, através dela pode-se referenciar links de outras páginas dentro do seu conteúdo
+                o que permite mais acesso as informações sem precisar buscar novamente no navegador. Como por exemplo: <br> <br>
+            </p>
+            <img id="a-imagem" src="tasg a ex.png" alt="">
+        </div>
+        <div id="footer">
+            <h3>
+                footer
+            </h3>
+    
+                <p>
+                O footer é usado como um rodapé, lembra de artigos onde o nome do autor e a data de publicação
+                aparecem do lado esquerdo logo após o título da matéria? Pois bem, ele geralmente é utilizado para expor as informações de autoria.
+                Como por exemplo: <br> <br>
+                <img id="footer-imagem" src="exemplos header e footer.png" alt="">
+                </p>
+    
+        </div>
+        <div id="header">
+            <h3>
+                header
+            </h3>
+    
+                <p>
+                O header é uma tag utilizada para definir-se um cabeçalho de um documento, ou até mesmo uma seção.
+                Pode-se inserir títulos das mais variadas hierarquias (do h1 ao h6), imagens, como logos, e informações de autoria.
+                Exemplo: <br> <br>
+                <img id="header-imagem" src="exemplos header e footer.png" alt="">
+                </p>
+    
+        </div>
+        <div id="section">
+           <h3>
+                section
+           </h3>
+           <p>
+               Esse elemento pode ser utilizado para representar um tópico, uma seção, um assunto ou etc dentro de um documento,  por exemplo. Normalmente é utilizado uma tag-título para dar noção do que se trata
+               aquele tópico. Como pode ver com o exemplo a seguir:
+           </p>
+           <img id="section-imagem" src="section exemplo.png" alt="">
+        </div>
+        <div id="article">
+            <h3>
+                article
+            </h3>
+            <p>
+                Essa tag é utilizada para quando iremos incluir um conteúdo que não precisa de outro para ter sentido quando se trata de um arquivo HTML
+                Como por exemplo os artigos de blogs. Segue:
+            </p>
+            <img id="article-imagem" src="article tag exemplo.png" alt="">
+        </div>
+        <div id="nav">
+            <h3>
+                nav
+            </h3>
+            <p>
+                Essa tag é utilizada para fazermos uma espécie de agrupamentos de links de navegação, que são criadas através de outros
+                elementos, são eles: ul,li,a. <br>
+            </p>
+            <img id="nav-imagem" src="ASIDE E NAV TAG EXEMPLO.png" alt="">
+        </div>
+        <div id="aside">
+            <h3>
+                aside
+            </h3>
+    
+                <p>
+                O elemento aside serve para indicar um conteúdo de apoio para se entender melhor sobre o assunto, ou então sugerir assuntos relacionados.
+                Como estar fazendo um conteúdo sobre bolos e sugerir mais conteúdos sobre sobremesas.
+                Podemos fazer uso da tag aside da seguinte maneira: <br> <br>
+                <img id="aside-imagem" src="ASIDE E NAV TAG EXEMPLO.png" alt="">
+    
+            </p>
+    
+        </div>
+        <div id="main">
+            <h3>
+                main
+            </h3>
+    
+                <p>
+                    A tag main serve para indicar qual é o conteúdo principal da página que está sendo contruída, por
+                    conta disso, por boas práticas, é recomendado se ter apenas um assunto principal nas páginas que são desenvolvidas.
+                    Exemplo de uso da tag main: <br> <br>
+                    <img id = "main-imagem" src="main exemplo.png" alt="">
+                </p>
+    
+        </div>
+        <div id="figure">
+            <h3>
+                figure
+            </h3>
+    
+                <p>
+                    Esse elemento é utilizado para a inclusão de figuras no conteúdo, a tag figcaption serve para incluir uma descrição na imagem.
+                    Utiliza-se a figure da seguinte forma: <br> <br>
+                    <img id="figure-imagem" src="exemplo figure.png" alt="">
+    
+                </p>
+    
+        </div>
+    </div>
+
+    <article>
+        <h2 id="veja-mais">
+            Veja aqui o arquivo completo utilizado nos exemplos:
+        </h2>
+        <aside>
+            <a href="exemplos.html">Clique aqui para ver o documento:</a>
+            <a href="https://github.com/Linceo27/html-semantico/blob/main/exemplos.html"> Clique aqui para ver o código</a>
+        </aside>
+    </article>
+</main>
+   
+</body>
+</html>
